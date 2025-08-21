@@ -1,0 +1,36 @@
+[global]
+# Streamlit configuration for debugging
+
+# Enable development mode
+developmentMode = false
+
+# Show error details
+showErrorDetails = true
+
+# Disable usage stats
+gatherUsageStats = false
+
+[server]
+# Server settings
+port = 8501
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+maxUploadSize = 200
+
+[browser]
+# Browser settings
+gatherUsageStats = false
+serverAddress = "0.0.0.0"
+serverPort = 8501
+
+[theme]
+# Theme settings
+primaryColor = "#FF6B6B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+
+[logger]
+# Logging level
+level = "debug"
